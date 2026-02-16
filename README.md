@@ -1,2 +1,2 @@
 # Mini-projects
-Projects that i do in school for learning
+Projects that we do in school for learning
