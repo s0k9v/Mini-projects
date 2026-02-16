@@ -8,8 +8,9 @@ FILE_CATEGORIES = {
     "Audio": [".mp3", ".wav", ".aac", ".flac"],
     "Archives": [".zip", ".rar", ".7z", ".tar", ".gz"],
     "Data": [".csv", ".json", ".xml"],
-    "Others": []
-}
+    "Others": [],
+    "Executable": [".exe", ".bat", ".sh"]   
+    }
 
 def organize_files(source_folder):
     for filename in os.listdir(source_folder):
