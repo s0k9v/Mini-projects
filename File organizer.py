@@ -22,6 +22,7 @@ def organize_files(source_folder):
 
             if not os.path.exists(category_folder):
                 os.makedirs(category_folder)
+                
 
             shutil.move(file_path, os.path.join(category_folder, filename))
 def get_file_category(file_extension):
